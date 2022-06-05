@@ -1,0 +1,137 @@
+h1 {
+  color: hsl(240, 72%, 22%);
+  background-color: #fce5d2;
+  height: 60px;
+  line-height: 80px;
+  text-align: center;
+  border: 3px solid black;
+}
+
+/* para agregarlo a todos los encabezados has esto */
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(240, 35%, 21%);
+}
+body{
+  
+  background-image:url(OIP.jpg);
+  
+  }
+
+.App {
+  text-align: center;
+  color: #0c469c;
+   
+ 
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  text-align: center;
+  
+}
+
+
+/* formulario */
+
+.formulario {
+  background-color: rgb(97, 168, 177);
+  width: min(30rem, 100%);
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  right: 10px;
+  border: 3px solid black;
+}
+
+
+
+.formulario fieldset {
+  border: none;
+
+}
+
+
+
+.formulario legend{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 0 auto 1rem auto ;
+ 
+  color: rgb(35, 72, 77);
+
+}
+
+
+/*operaciones*/
+.contenido{
+  background-color: rgb(218, 134, 218);
+  width: min(30rem, 100%);
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  right: 10px;
+  border: 3px solid black;
+}
+
+  .center{
+text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 0 auto 1rem auto ;
+   
+  color: rgb(35, 72, 77);
+
+}
+.opcioness{
+  background-color: rgb(236, 230, 230);
+  width: min(30rem, 100%);
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  right: 10px;
+}
+
+
+.container{
+  background-color: rgb(140, 209, 140);
+  width: min(30rem, 100%);
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  right: 10px;
+  border: 3px solid black;
+}
+
+  .center{
+text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 0 auto 1rem auto ;
+ 
+  color: rgb(35, 72, 77);
+
+}
+.opciones{
+  background-color: rgb(236, 230, 230);
+  width: min(30rem, 100%);
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  right: 10px;
+}
+
+  
+
+
