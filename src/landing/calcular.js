@@ -1,5 +1,5 @@
 import React from "react";
-
+import Menu from "../landing/Menu";
 export default function SumaMulti() {
     //Definidos
     const [input, setInput] = React.useState({
@@ -33,6 +33,7 @@ export default function SumaMulti() {
     return (
   
       <div>
+        <Menu></Menu>
           <div className='sumaMulti'>
   
               <div className='container'>

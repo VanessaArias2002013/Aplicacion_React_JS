@@ -1,5 +1,5 @@
 import React from "react";
-
+import Menu from "../landing/Menu";
 class formulario extends React.Component {
     constructor(props) {
         super(props);
@@ -28,6 +28,7 @@ class formulario extends React.Component {
 
     render() {
         return <><div className="formulario">
+            <Menu></Menu>
             <h2>Formulario de contacto</h2>
             <form onSubmit={this.handleSubmit}>
                 <label>

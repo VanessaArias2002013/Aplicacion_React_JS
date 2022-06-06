@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import Menu from "../landing/Menu";
 
 export default function Operaciones() {
     //hook defined
@@ -34,9 +34,11 @@ export default function Operaciones() {
     return (
   
       <div>
+        <Menu></Menu>
           <div className='sumaMulti '>
   
               <div className='contenido'>
+              
                   <h2> Escribe dos números para sumar/multiplicar</h2>
                   <div>
                       <input className='bold-tamaño'

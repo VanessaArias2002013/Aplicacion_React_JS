@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu } from "../landing/menu";
+import { Menu } from "../landing/Menu";
 
 export default function Login(){
     return(
